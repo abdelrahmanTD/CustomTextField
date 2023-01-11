@@ -8,12 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+	@State private var firstName: String = ""
+	@State private var lastName: String = ""
+	
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+			Text("Floating Label TextField")
+				.font(.title2)
+				.fontWeight(.bold)
+				.foregroundColor(.black)
+
+			FloatingLabelTextField(placeholder: "First Name", text: self.$firstName)
+			FloatingLabelTextField(placeholder: "Last Name", text: self.$lastName)
         }
         .padding()
     }
