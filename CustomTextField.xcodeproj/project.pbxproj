@@ -13,6 +13,7 @@
 		3080C568296F676100CB7D5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3080C567296F676100CB7D5A /* Preview Assets.xcassets */; };
 		3080C571296F6A5400CB7D5A /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3080C570296F6A5400CB7D5A /* FloatingLabelTextField.swift */; };
 		3080C575296F6BE200CB7D5A /* FloatingBorderLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3080C574296F6BE200CB7D5A /* FloatingBorderLabelTextField.swift */; };
+		3080C577296F6D3600CB7D5A /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3080C576296F6D3600CB7D5A /* CustomTextFieldStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		3080C567296F676100CB7D5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3080C570296F6A5400CB7D5A /* FloatingLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingLabelTextField.swift; sourceTree = "<group>"; };
 		3080C574296F6BE200CB7D5A /* FloatingBorderLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingBorderLabelTextField.swift; sourceTree = "<group>"; };
+		3080C576296F6D3600CB7D5A /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				3080C560296F675F00CB7D5A /* CustomTextFieldApp.swift */,
 				3080C562296F675F00CB7D5A /* ContentView.swift */,
+				3080C576296F6D3600CB7D5A /* CustomTextFieldStyle.swift */,
 				3080C574296F6BE200CB7D5A /* FloatingBorderLabelTextField.swift */,
 				3080C570296F6A5400CB7D5A /* FloatingLabelTextField.swift */,
 				3080C564296F676100CB7D5A /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				3080C563296F675F00CB7D5A /* ContentView.swift in Sources */,
 				3080C571296F6A5400CB7D5A /* FloatingLabelTextField.swift in Sources */,
 				3080C561296F675F00CB7D5A /* CustomTextFieldApp.swift in Sources */,
+				3080C577296F6D3600CB7D5A /* CustomTextFieldStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
