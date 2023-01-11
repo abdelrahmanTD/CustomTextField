@@ -33,6 +33,34 @@ struct ContentView: View {
 				FloatingBorderLabelTextField(placeholder: "Last Name", text: self.$lastName)
 			}
 			.padding(.vertical, 5)
+			
+			Divider()
+			
+			Group {
+				Text("Using `.textFieldStyle` modifier")
+					.font(.title2)
+
+				TextField("", text: self.$firstName)
+					.textFieldStyle(
+						CustomTextFieldStyle(
+							placeholder: "First Name",
+							placeholderColor: .black,
+							placeholderBgColor: .white,
+							isEditing: !self.firstName.isEmpty
+						)
+					)
+
+				TextField("", text: self.$lastName)
+					.textFieldStyle(
+						CustomTextFieldStyle(
+							placeholder: "Last Name",
+							placeholderColor: .black,
+							placeholderBgColor: .white,
+							isEditing: !self.lastName.isEmpty
+						)
+					)
+			}
+			.padding(.vertical, 5)
         }
 		.foregroundColor(.black)
         .padding()
