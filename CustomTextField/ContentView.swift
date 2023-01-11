@@ -39,6 +39,7 @@ struct ContentView: View {
 			Group {
 				Text("Using `.textFieldStyle` modifier")
 					.font(.title2)
+					.fontWeight(.bold)
 
 				TextField("", text: self.$firstName)
 					.textFieldStyle(
